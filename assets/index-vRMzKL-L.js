@@ -202,6 +202,7 @@ Error generating stack: `+o.message+`
 	flex: 1; // Takes 1/3 of the space
 	background-color: white;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	font-size: 0.7rem;
 	display: ${({$show:e})=>e?"block":"none"}; // Conditional display
 	& > div {
 		margin: 1rem;
@@ -211,6 +212,7 @@ Error generating stack: `+o.message+`
 		margin: 1rem;
 		display: flex;
 		gap: 1rem;
+		font-size: 0.7rem;
 		flex-direction: column;
 		& > input {
 			background-color: transparent;
@@ -224,7 +226,7 @@ Error generating stack: `+o.message+`
 		display: flex;
 		justify-content: space-between;
 	}
-`;function Sh({show:e,task:t,onSubmit:n}){return S.jsx(wh,{$show:!!e,children:e&&t&&S.jsxs(S.Fragment,{children:[S.jsx("div",{children:S.jsx("h2",{children:t.title})}),S.jsx("hr",{}),S.jsx("div",{children:S.jsxs("form",{action:"",onSubmit:n,children:[S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"1.5rem"},children:[S.jsx(vh,{}),S.jsx("span",{children:"Pomodoro length"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"number",name:"pomodoroTime",defaultValue:t.pomodoroTime,id:""}),"minute"]})}),S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"1.5rem"},children:[S.jsx(yh,{}),S.jsx("span",{children:"Pomodoro Count"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"number",name:"pomodoroCount",defaultValue:t.pomodoroCount,id:""})]})}),S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"1.5rem"},children:[S.jsx(gh,{}),S.jsx("span",{children:"Due Date"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"date",name:"dueDate",id:"",defaultValue:t.dueDate})]})}),S.jsx("button",{type:"submit",style:{marginTop:"1rem",width:"55px",height:"30px",backgroundColor:"green",color:"white",marginLeft:"auto",borderRadius:"5px",border:"none"},children:"Save"})]})})]})})}const kh=te.div`
+`;function Sh({show:e,task:t,onSubmit:n}){return S.jsx(wh,{$show:!!e,children:e&&t&&S.jsxs(S.Fragment,{children:[S.jsx("div",{children:S.jsx("h2",{children:t.title})}),S.jsx("hr",{}),S.jsx("div",{children:S.jsxs("form",{action:"",onSubmit:n,children:[S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"0.9rem"},children:[S.jsx(vh,{}),S.jsx("span",{children:"Pomodoro length"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"number",name:"pomodoroTime",defaultValue:t.pomodoroTime,id:""}),"minute"]})}),S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"0.9rem"},children:[S.jsx(yh,{}),S.jsx("span",{children:"Pomodoro Count"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"number",name:"pomodoroCount",defaultValue:t.pomodoroCount,id:""})]})}),S.jsx("div",{className:"input_field",children:S.jsxs("div",{style:{display:"flex",gap:"1rem",alignItems:"center",fontSize:"0.9rem"},children:[S.jsx(gh,{}),S.jsx("span",{children:"Due Date"}),S.jsx("input",{style:{borderRadius:"5px",padding:"0.5rem"},type:"date",name:"dueDate",id:"",defaultValue:t.dueDate})]})}),S.jsx("button",{type:"submit",style:{marginTop:"1rem",width:"55px",height:"30px",backgroundColor:"green",color:"white",marginLeft:"auto",borderRadius:"5px",border:"none"},children:"Save"})]})})]})})}const kh=te.div`
 	/* margin: 1rem auto;
 	width: 90%;
 	display: flex;
